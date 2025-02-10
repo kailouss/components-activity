@@ -1,4 +1,4 @@
-const Texts = () => {
+const AvatarLanding = () => {
   return (
     <div className="py-5 mt-24 flex justify-center items-end w-72 h-72">
       Hi there!
@@ -10,4 +10,4 @@ const Texts = () => {
   );
 };
 
-export default Texts;
+export default AvatarLanding;

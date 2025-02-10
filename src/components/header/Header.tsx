@@ -17,11 +17,11 @@ const Header = () => {
 
   return (
     <div className="header absolute w-screen h-20 bg-black border-b-white border-b-4 z-50">
-      <div className="px-2 flex items-center h-full w-full select-none">
+      <div className="px-2 flex items-center h-full w-full select-none  transition-all">
         {isMobileView() ? (
           <>
             <div className="logo font-lexend font-bold text-white text-2xl md:text-4xl">
-              KLOSS
+              KaiLouSs
             </div>
             <button
               onClick={toggleSidebar}
@@ -63,7 +63,7 @@ const Header = () => {
         ) : (
           <>
             <div className="logo font-lexend font-bold text-white text-2xl md:text-4xl">
-              KLOSS
+              KaiLouSs
             </div>
             <div className="content flex items-center gap-6 mx-12 text-white text-sm md:text-base">
               <button
